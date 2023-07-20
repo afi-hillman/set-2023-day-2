@@ -3,143 +3,175 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code along day 2</title>
+    <title>Assessment Day 2</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- section 1-->
-    <div class="section-1">
-      <!-- box 2 -->
-      <div class="container">
-        <!-- navigation bar -->
-        <nav>
-          <!-- nav left side -->
-          <img id="logo" src="./assets/logo 1.png" alt="company logo" />
-          <!-- nav right side -->
-          <ul class="menu-items">
-            <a href="#home"> <li class="menu-item">home</li></a>
-            <a href="#services"> <li class="menu-item">services</li></a>
-            <a href="#class"> <li class="menu-item">pricing</li></a>
-            <a href="#testimonial"> <li class="menu-item">testimonial</li></a>
-            <a href="#contact"> <li class="menu-item">contact</li></a>
-          </ul>
-        </nav>
-        <!-- text group -->
-        <div class="text-group">
-          <h2>Handcrafted Landing Page for Startups and SaaS Businesses</h2>
-          <h3>
+    <header>
+      <div class="logo">
+        <img src="./assets/logo 1.png" alt="logo" />
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li class="nav-bar-item">HOME</li>
+          <li class="nav-bar-item">SERVICES</li>
+          <li class="nav-bar-item">PRICING</li>
+          <li class="nav-bar-item">TESTIMONIAL</li>
+          <li class="nav-bar-item">CONTACT</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="section1">
+        <div class="main-title">
+          <h1>Handcrafted Landing Page for Startups and SaaS Businesses</h1>
+          <p>
             A simple, customizable, and, beautiful SaaS business focused landing
             page to make your project closer to launch!
-          </h3>
-          <button id="getInTouch">GET IN TOUCH</button>
-          <button id="watchTheVideo">WATCH THE VIDEO</button>
+          </p>
+        </div>
+        <div class="main-buttons">
+          <button id="touchButton">GET IN TOUCH</button>
+          <button id="watchButton">WATCH THE VIDEO</button>
         </div>
       </div>
-    </div>
-
-    <!-- section 2 -->
-    <!-- <div id="services" class="section-2">
-      <div class="container">
-        <div id="columnLeft">
-          <div>
-            <h3>Crafted For</h3>
+      <div id="section2">
+        <div class="side-details">
+          <div class="main-title">
+            <h2>Crafted For</h2>
             <p>
               Stop wasting time and money designing and managing a website that
               doesn’t get results. Happiness guaranteed!
             </p>
           </div>
-
-          <div id="test">
-            <div id="topLeft" class="service-block">
-              <img src="./assets/lightning-svgrepo-com 1.png" alt="lightning" />
-              <div class="service-text">
-                <h6>Startup</h6>
-                <p>
-                  Short description for the ones who look for something new.
-                </p>
+          <div class="icon-group">
+            <div class="row">
+              <div class="details">
+                <div>
+                  <img src="./assets/lightning-svgrepo-com 1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h5>Startup</h5>
+                  <p>
+                    Short description for the ones who look for something new.
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <div>
+                  <img src="./assets/bar-chart-svgrepo-com 1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h5>Saas Business</h5>
+                  <p>
+                    Short description for the ones who look for something new.
+                  </p>
+                </div>
               </div>
             </div>
-
-            <div id="topRight" class="service-block">
-              <img src="./assets/bar-chart-svgrepo-com 1.png" alt="bar-chart" />
-              <div class="service-text">
-                <h6>Saas Business</h6>
-                <p>
-                  Short description for the ones who look for something new.
-                </p>
+            <div class="row">
+              <div class="details">
+                <div>
+                  <img src="./assets/office-svgrepo-com (1) 1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h5>Agency</h5>
+                  <p>
+                    Short description for the ones who look for something new.
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <div>
+                  <img src="./assets/bulb-svgrepo-com 1.png" alt="" />
+                </div>
+                <div class="text">
+                  <h5>App Landing</h5>
+                  <p>
+                    Short description for the ones who look for something new.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-
+        </div>
+        <div class="side-image">
+          <img src="./assets/services 1.png" alt="" />
+        </div>
+      </div>
+      <div id="section3">
+        <div class="title">
+          <h2>Our Pricing</h2>
+          <p>
+            Stop wasting time and money designing and managing a website that
+            doesn’t get results. Happiness guaranteed!
+          </p>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div class="pricing">
+              <p id="one">BASIC</p>
+              <h2>199$</h2>
+              <p class="year-text">per year</p>
+            </div>
+            <ul>
+              <li>Carefully Crafted Components</li>
+              <li>Amazing Page Examples</li>
+              <li>Super Friendly Support Team</li>
+              <li>Awesome Support</li>
+            </ul>
+            <div><button>GET STARTED</button></div>
+          </div>
+          <div class="card">
+            <div class="pricing">
+              <p id="two">PRO</p>
+              <h2>399$</h2>
+              <p class="year-text">per year</p>
+            </div>
+            <ul>
+              <li>Carefully Crafted Components</li>
+              <li>Amazing Page Examples</li>
+              <li>Super Friendly Support Team</li>
+              <li>Awesome Support</li>
+            </ul>
+            <div><button>GET STARTED</button></div>
+          </div>
+          <div class="card">
+            <div class="pricing">
+              <p id="three">ENTERPRISE</p>
+              <h2>799$</h2>
+              <p class="year-text">per year</p>
+            </div>
+            <ul>
+              <li>Carefully Crafted Components</li>
+              <li>Amazing Page Examples</li>
+              <li>Super Friendly Support Team</li>
+              <li>Awesome Support</li>
+            </ul>
+            <div><button>GET STARTED</button></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="side-image"></div>
+      <div class="side-details">
+        <div class="side-text">
+          <div class="text"><h2>Curious To Learn More?</h2></div>
+          <div class="text"><h2>Stay Tuned</h2></div>
           <div>
-            <div>bottomleft</div>
-            <div>bottomright</div>
+            <p>
+              You let us know whenever you want us to update anything or think
+              something can be optimized.
+            </p>
           </div>
         </div>
-
-        <div id="columnRight">
-          <img src="./assets/services 1.png" alt="services" />
+        <div class="bottom-part">
+          <img id="icon" src="./assets/mail icon.svg" alt="" />
+          <div class="text-box"><p>johndoe@gmail.com</p></div>
+          <div><button id="subButton">SUBSCRIBE</button></div>
         </div>
       </div>
-      <div id="class" class="section-3"></div>
-      <div id="testimonial" class="section-4"></div>
-      <div id="contact" class="section-5"></div>
-    </div> -->
-
-    <!-- section 3 -->
-    <div id="pricing" class="section-3">
-      <div class="main-text">
-        <h3>Our Pricing</h3>
-        <p>
-          Stop wasting time and money designing and managing a website that
-          doesn’t get results. Happiness guaranteed!
-        </p>
-      </div>
-
-      <div class="pricing-row">
-        
-        <div id="priceColumnLeft" class="pricing-column">
-          <a>BASIC</a>
-          <h3>199$</h3>
-          <p>per year</p>
-          <ul>
-            <li>Carefully Crafted Components</li>
-            <li>Amazing Page Examples</li>
-            <li>Super Friendly Support Team</li>
-            <li>Awesome Support</li>
-          </ul>
-          <button>GET STARTED</button>
-        </div>
-
-        <div id="priceColumnCenter" class="pricing-column">
-          <a>PRO</a>
-          <h3>399$</h3>
-          <p>per year</p>
-          <ul>
-            <li>Carefully Crafted Components</li>
-            <li>Amazing Page Examples</li>
-            <li>Super Friendly Support Team</li>
-            <li>Awesome Support</li>
-          </ul>
-          <button>GET STARTED</button>
-        </div>
-
-        <div id="priceColumnRight" class="pricing-column">
-          <a>ENTERPRISE</a>
-          <h3>799$</h3>
-          <p>per year</p>
-          <ul>
-            <li>Carefully Crafted Components</li>
-            <li>Amazing Page Examples</li>
-            <li>Super Friendly Support Team</li>
-            <li>Awesome Support</li>
-          </ul>
-          <button>GET STARTED</button>
-        </div>
-
-      </div>
-
-      </div>
-    </div>
+    </footer>
   </body>
 </html>
